@@ -1,10 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
-
-
-
 
 long long frac_re(int n)
 {
@@ -14,13 +9,11 @@ long long frac_re(int n)
         return n * frac_re(n - 1);
 }
 
-
-
-
-int main() {
+int main() 
+{
 
     int a = 20;
-    cout << frac_re(a) << endl;
+    cout << a << "µÄ½×³ËÎª" << frac_re(a) << endl;
     
 	return 0;
 }
